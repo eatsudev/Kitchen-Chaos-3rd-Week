@@ -21,7 +21,7 @@ public class GameInput : MonoBehaviour
         {
             OnInteractAction(this, EventArgs.Empty);
         }
-        OnInteractAction?.Invoke(this, EventArgs.Empty);
+        
     }
 
     public Vector2 GetMovementVectorNormalized()
